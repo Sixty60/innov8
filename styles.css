@@ -1,0 +1,36 @@
+body {
+    display: flex;
+}
+
+aside {
+    display: flex;
+    border: 2px solid black;
+    height: 950px;
+    width: 15%;
+    flex-direction: column;
+    
+
+}
+aside a {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+.leveransmenu {
+   
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    
+}
+article {
+    display: flex;
+    border: 2px solid black;
+    margin-left: 5px;
+    width: 85%;
+    height: 950px;
+    
+}
