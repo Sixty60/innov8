@@ -10,7 +10,8 @@ aside {
     flex-direction: column;
     background-color: white;
     border-radius: 4px;
-    
+    justify-content: space-between;
+    box-sizing: border-box;
 
 }
 aside a {
@@ -54,6 +55,7 @@ aside a {
     border-radius: 4px;
     margin: 5px;
     transition-duration: 0.4s;
+    
 }
 
 .leveransmenu {
@@ -61,6 +63,15 @@ aside a {
     flex-direction: column;
     
     
+}
+
+.valmeny {
+    display: flex;
+    flex-direction: column;
+    
+    
+    box-sizing: content-box;
+    background-color: #edeceb;
 }
 article {
     display: flex;
