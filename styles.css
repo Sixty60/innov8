@@ -5,7 +5,7 @@ body {
 
 aside {
     display: flex;
-    height: 950px;
+    height: 49.5vw;
     width: 15%;
     flex-direction: column;
     background-color: white;
@@ -68,7 +68,7 @@ aside a {
 .valmeny {
     display: flex;
     flex-direction: column;
-    
+    margin-top: 1vw;
     
     box-sizing: content-box;
     background-color: #edeceb;
@@ -78,6 +78,7 @@ article {
     border-radius: 4px;
     margin-left: 5px;
     width: 85%;
-    height: 950px;
+    height: 49.5vw;
+    margin-bottom: 0.5vw;
     
 }
